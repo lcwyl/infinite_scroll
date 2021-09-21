@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[AJAX] – Infinite Scroll</title>
+    <style>
+      .donut{
+        display: none;
+        border:4px solid rgba(0,0,0,0.1);
+        border-left-color: #7983ff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: donat-spin 0.5s linear infinite;
+        position: fixed;
+        left:50%;
+        transform: translate(0,-50%);
+        bottom: 28px;
+      }
+      @keyframes donat-spin {
+        from{transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
+      }
+    </style>
+</head>
+<body>
+  <p>User ID: 108</p>
+  <p>User Name: Akademia108</p>
+  <p>User URL: http://akademia108.pl<br>--------</p> 
+          
+  <p>User ID: 107</p>
+  <p>User Name: Krystian</p>
+  <p>User URL: http://tvn24.pl<br>--------</p>      
+  
+  <p>User ID: 106</p>
+  <p>User Name: Asia</p>
+  <p>User URL: http://bbc.com<br>--------</p>      
+  
+  <p>User ID: 105</p>
+  <p>User Name: Grześ</p>
+  <p>User URL: http://wp.pl<br>--------</p>      
+                                              
+  <p>User ID: 104</p>
+  <p>User Name: Juri</p>
+  <p>User URL: http://interia.pl<br>--------</p>      
+  
+  <p>User ID: 103</p>
+  <p>User Name: Paweł</p>
+  <p>User URL: http://onet.pl<br>--------</p>      
+                                  
+  <p>User ID: 102</p>
+  <p>User Name: Adam</p>
+  <p>User URL: http://adamski.pl<br>--------</p>      
+  
+  <p>User ID: 101</p>
+  <p>User Name: Aleksandra</p>
+  <p>User URL: http://aleksandra.pl<br>--------</p> 
+  <p>User ID: 102</p>
+  
+  <p>User Name: Adam</p>
+  <p>User URL: http://adamski.pl<br>--------</p>      
+  
+  <p>User ID: 101</p>
+  <p>User Name: Aleksandra</p>
+  <p>User URL: http://aleksandra.pl<br>--------</p> 
+
+  <p>User ID: 101</p>
+  <p>User Name: Aleksandra</p>
+  <p>User URL: http://aleksandra.pl<br>--------</p> 
+  
+  <p>User ID: 102</p>
+  <p>User Name: Adam</p>
+  <p>User URL: http://adamski.pl<br>--------</p>      
+  
+  <p>User ID: 101</p>
+  <p>User Name: Aleksandra</p>
+  <p>User URL: http://aleksandra.pl<br>--------</p>
+   
+  <div class="donut"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>  
